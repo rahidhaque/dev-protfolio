@@ -8,6 +8,10 @@ h2{
     font-size: 35px;
 }
 
+h3{
+    font-size: 30px;
+}
+
 .web-header{
 display: flex;
 justify-content: center;
@@ -31,7 +35,7 @@ font-weight: 900px;
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 50px 150px;
+    padding: 50px 188px;
 }
 
 nav ul{
@@ -43,5 +47,49 @@ nav li{
     list-style: none;
     margin-left: 50px;
 }
+
+.about-me{
+    display: grid;
+    padding: 50px 490px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.about-detail{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.about-me-info{
+display: flex;
+justify-content: space-around;
+}
+
+.about-me .info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 490px;
+    gap: 20px;
+}
+
+
 
 
