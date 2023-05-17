@@ -28,4 +28,20 @@ text-decoration: none;
 font-weight: 900px;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+
 
